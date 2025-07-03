@@ -207,3 +207,28 @@ html.dark .nav-link:hover {
   color: #c4b5fd;
   box-shadow: 0 2px 10px rgba(168, 85, 247, 0.3);
 }
+
+.skill-tag {
+  display: inline-block;
+  background-color: #ede9fe; /* Light purple */
+  color: #5b21b6;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;         /* ✅ Prevent tag from breaking text */
+  max-width: 100%;
+  overflow-wrap: break-word;   /* ✅ Allow wrapping if needed */
+  word-break: break-word;
+  text-align: center;
+}
+
+.project-bubble {
+  max-width: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  overflow: hidden; /* ✅ Important */
+}
