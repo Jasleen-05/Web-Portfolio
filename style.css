@@ -1,0 +1,209 @@
+/* ✅ Skill Bubbles */
+.skill-tag {
+  display: inline-block;
+  background-color: #e0d4fc; /* soft purple bg */
+  color: #1f2937;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  transform-origin: center;
+  cursor: default;
+}
+
+.skill-tag:hover {
+  background-color: #c4b5fd; /* hover: purple-300 */
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(139, 92, 246, 0.3); /* purple glow */
+}
+
+html.dark .skill-tag {
+  background-color: #6d28d9; /* purple-700 */
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.08);
+}
+
+html.dark .skill-tag:hover {
+  background-color: #7c3aed; /* purple-600 */
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(168, 85, 247, 0.5);
+}
+
+/* ✅ Project Card */
+.project-bubble {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+  width: 100%;
+  max-width: 420px;
+}
+
+.project-bubble:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2); /* purple-500 glow */
+}
+
+html.dark .project-bubble {
+  background-color: #374151;
+  color: #fff;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #8b5cf6; /* purple-500 */
+}
+
+.project-description {
+  color: #4b5563;
+}
+
+html.dark .project-description {
+  color: #d1d5db;
+}
+
+.project-button {
+  align-self: start;
+  padding: 0.5rem 1rem;
+  background-color: #8b5cf6; /* purple-500 */
+  color: #fff;
+  font-weight: 500;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #7c3aed; /* purple-600 */
+}
+
+/* ✅ Form Styling */
+.form-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #1f2937;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #8b5cf6; /* purple-500 */
+  box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.3);
+}
+
+html.dark .form-input {
+  background-color: #1f2937;
+  color: #f9fafb;
+  border-color: #4b5563;
+}
+
+html.dark .form-input:focus {
+  border-color: #c4b5fd; /* purple-300 */
+  box-shadow: 0 0 0 2px rgba(196, 181, 253, 0.3);
+}
+
+.form-input::placeholder {
+  color: #9ca3af;
+}
+
+html.dark .form-input::placeholder {
+  color: #d1d5db;
+}
+
+/* ✅ Purple Button */
+.btn-primary {
+  @apply bg-purple-500 hover:bg-purple-600 text-white px-6 py-2 rounded-xl transition;
+}
+
+/* ✅ Glass Tile Effect */
+section div:hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid;
+  animation: typing 4s steps(40, end) infinite, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  0% { width: 0; }
+  50% { width: 100%; }
+  100% { width: 0; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.send-button {
+  background-color: #8b5cf6;            /* purple-500 */
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.75rem;               /* rounded rectangle */
+  box-shadow: 0 4px 10px rgba(139, 92, 246, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #7c3aed;            /* purple-600 */
+  box-shadow: 0 6px 14px rgba(124, 58, 237, 0.4);
+  transform: translateY(-2px);
+}
+
+html.dark .send-button {
+  background-color: #7c3aed;            /* purple-600 */
+  box-shadow: 0 4px 10px rgba(168, 85, 247, 0.3);
+}
+
+html.dark .send-button:hover {
+  background-color: #6d28d9;            /* purple-700 */
+  box-shadow: 0 6px 14px rgba(147, 51, 234, 0.5);
+}
+
+.nav-link {
+  position: relative;
+  padding: 0.25rem 0.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+  color: #4b5563; /* gray-700 for light mode */
+}
+
+.nav-link:hover {
+  background-color: rgba(139, 92, 246, 0.1); /* light purple hover */
+  color: #6b21a8; /* deep purple */
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.2);
+  transform: translateY(-1px);
+}
+
+html.dark .nav-link {
+  color: #e5e7eb; /* gray-200 */
+}
+
+html.dark .nav-link:hover {
+  background-color: rgba(139, 92, 246, 0.2);
+  color: #c4b5fd;
+  box-shadow: 0 2px 10px rgba(168, 85, 247, 0.3);
+}

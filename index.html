@@ -1,0 +1,220 @@
+<!-- 🟣 CHANGED HTML: Pink → Purple -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jasleen Portfolio</title>
+
+  <!-- ✅ Load Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- ✅ Configure Tailwind AFTER loading it -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    };
+  </script>
+
+  <!-- ✅ Apply saved theme before page renders -->
+  <script>
+    if (localStorage.getItem("theme") === "dark") {
+      document.documentElement.classList.add("dark");
+    }
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-white transition duration-300">
+
+  <!-- Navbar -->
+  <nav class="p-4 bg-white dark:bg-gray-800 shadow flex justify-between items-center sticky top-0 z-50">
+    <h1 class="text-xl font-bold text-purple-600 dark:text-purple-400">Jasleen Kaur</h1>
+    <div class="flex items-center space-x-4">
+      <a href="#about" class="nav-link">About</a>
+<a href="#projects" class="nav-link">Projects</a>
+<a href="#skills" class="nav-link">Skills</a>
+<a href="#contact" class="nav-link">Contact</a>
+      <!-- Dark Mode Toggle -->
+      <div class="flex items-center space-x-2">
+        <span>🌞</span>
+        <label class="relative inline-flex items-center cursor-pointer">
+          <input type="checkbox" id="theme-toggle" class="sr-only peer">
+          <div class="w-11 h-6 bg-gray-300 rounded-full peer peer-checked:bg-purple-600 transition-all"></div>
+          <div class="absolute left-0.5 top-0.5 w-5 h-5 bg-white rounded-full transition-transform transform peer-checked:translate-x-full"></div>
+        </label>
+        <span>🌙</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="relative h-screen overflow-hidden">
+    <iframe
+      src="https://my.spline.design/robotfollowcursorforlandingpage-OBjZ6qzl9ibeNpfO1HfvYb7u/"
+      frameborder="0"
+      class="absolute top-0 left-0 w-full h-full z-0"
+      allow="autoplay; fullscreen">
+    </iframe>
+
+    <div class="relative z-10 flex flex-col justify-center items-center h-full text-center px-6 pointer-events-none">
+      <div class="pointer-events-auto text-center space-y-6">
+        <h2 class="text-4xl md:text-6xl font-bold 
+  bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500 
+  bg-clip-text text-transparent 
+  dark:bg-none dark:text-white drop-shadow-sm">
+  Hi, I'm Jasleen Kaur Matharoo
+</h2>
+
+        <p class="typewriter text-xl text-[#4682b4] dark:text-gray-200">
+  AI Innovator | Ethical Hacker | Android Developer | Hackathon Winner
+</p>
+
+        <div class="flex flex-wrap justify-center gap-6 text-lg text-white underline drop-shadow-sm mt-4">
+          <a href="https://github.com/Jasleen-05" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/jasleenkaurmatharoo" target="_blank">LinkedIn</a>
+          <a href="https://leetcode.com/u/jasleenkaur05/" target="_blank">Leetcode</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="py-16">
+    <div class="container mx-auto px-6 md:px-16">
+      <h3 class="text-3xl font-bold text-purple-600 mb-10 text-center">About Me</h3>
+      <div class="rounded-2xl bg-white/10 dark:bg-white/10 backdrop-blur-md border border-white/20 shadow-xl transition-all duration-300 hover:scale-[1.02] p-8">
+        <p class="text-lg leading-relaxed max-w-3xl mx-auto text-left text-black dark:text-white">
+          I’m a B.Tech CSE student at Amity University Raipur (2022–2026), passionate about AI, cybersecurity, and smart innovations. I’ve won multiple hackathons including the Internal SIH 2024 and Kalinga Hackathon 2025, and developed projects that tackle real-world problems like women’s safety, smart agriculture, and healthcare analytics.
+        </p>
+      </div>
+    </div>
+  </section>
+
+<!-- Projects -->
+<section id="projects" class="py-16 bg-gray-100 dark:bg-gray-800">
+  <div class="container mx-auto px-6 md:px-16">
+    <h3 class="text-3xl font-bold text-purple-600 mb-10 text-center">Projects</h3>
+    <div class="rounded-2xl bg-white/10 dark:bg-white/10 backdrop-blur-md border border-white/20 shadow-xl transition-all duration-300 hover:scale-[1.02] p-8">
+      <div class="flex flex-wrap justify-center gap-8">
+
+        <!-- Project 1 -->
+        <div class="project-bubble">
+          <h4 class="project-title">AURA – Women’s Safety App</h4>
+          <p class="project-description">Real-time AR scanning, voice SOS, emotion recognition, AI shield & legal help.</p>
+          <div class="flex gap-2 mt-2">
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Android</span>
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Kotlin</span>
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">XML</span>
+          </div>
+          <a href="https://github.com/Jasleen-05/Aura" class="project-button mt-4" target="_blank">View Project</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-bubble">
+          <h4 class="project-title">Property Price Predictor</h4>
+          <p class="project-description">ML model predicting property rates using trend analysis.</p>
+          <div class="flex gap-2 mt-2">
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Python</span>
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">ML</span>
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Linear regression</span>
+          </div>
+          <a href="https://github.com/Jasleen-05/Property-Price-Prediction" class="project-button mt-4" target="_blank">View Project</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-bubble">
+          <h4 class="project-title">Customer Churn Prediction</h4>
+          <p class="project-description">Predicts potential customer loss via behavioral patterns.</p>
+          <div class="flex gap-2 mt-2">
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Python</span>
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">ML</span>
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Unsupervised Learning</span>
+          </div>
+          <a href="https://github.com/Jasleen-05/Customer-Churn-Prediction" class="project-button mt-4" target="_blank">View Project</a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-bubble">
+          <h4 class="project-title">Early Disease Detection</h4>
+          <p class="project-description">Identifies health risks from patient data.</p>
+          <div class="flex gap-2 mt-2">
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Healthcare</span>
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">ML</span>
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Data Science</span>
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Python</span>
+          </div>
+          <a href="https://github.com/Jasleen-05/Early-Disease-Detection" class="project-button mt-4" target="_blank">View Project</a>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-bubble">
+          <h4 class="project-title">E-Bidding Website</h4>
+          <p class="project-description">Bid-based web platform built with HTML/CSS/JS.</p>
+          <div class="flex gap-2 mt-2">
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">HTML</span>
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">CSS</span>
+            <span class="text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded-full">JavaScript</span>
+          </div>
+          <a href="https://github.com/Jasleen-05/E-bidding" class="project-button mt-4" target="_blank">View Project</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 text-center">
+    <div class="container mx-auto px-6 md:px-16">
+      <h3 class="text-3xl font-bold text-purple-600 mb-10">Skills & Tools</h3>
+      <div class="rounded-2xl bg-white/10 dark:bg-white/10 backdrop-blur-md border border-white/20 shadow-xl transition-all duration-300 hover:scale-[1.02] p-8">
+        <div class="flex flex-wrap justify-center gap-4 text-lg">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">Kotlin</span>
+          <span class="skill-tag">XML</span>
+          <span class="skill-tag">Android Studio</span>
+          <span class="skill-tag">Ethical Hacking</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">Machine Learning</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-gray-100 dark:bg-gray-800 text-left">
+    <div class="container mx-auto px-6 md:px-16">
+      <h3 class="text-3xl font-bold text-purple-600 mb-6">Contact Me</h3>
+      <div class="rounded-2xl bg-white/10 dark:bg-white/10 backdrop-blur-md border border-white/20 shadow-xl transition-all duration-300 hover:scale-[1.02] p-8">
+        <form class="max-w-lg space-y-4">
+          <input type="text" placeholder="Your Name" class="form-input" required />
+          <input type="email" placeholder="Your Email" class="form-input" required />
+          <textarea placeholder="Your Message" class="form-input" rows="4" required></textarea>
+          <div>
+            <button type="submit" class="send-button">Send Message</button>
+          </div>
+          <p class="mt-4 text-sm">Or reach out directly:<br>
+            📧 <a href="mailto:jasleen.matharoo@s.amity.edu" class="text-purple-500">jasleen.matharoo@s.amity.edu</a><br>
+            📞 +91 7024026295
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <button onclick="scrollToTop()" class="fixed bottom-5 right-5 bg-purple-500 text-white px-4 py-2 rounded-full shadow-md hover:bg-purple-600">↑</button>
+
+  <footer class="bg-white dark:bg-gray-900 text-center py-4 text-sm text-gray-500 dark:text-gray-400">
+    © 2025 Jasleen Kaur Matharoo | All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
