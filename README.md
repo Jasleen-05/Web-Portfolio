@@ -4,7 +4,7 @@ For best experience view in dark mode.
 
 Welcome to my personal portfolio website — a dynamic and interactive space where I showcase who I am, what I’ve built, and what I’m passionate about.
 
-🔗 *Live Site*: https://jasleen-web-portfolio.netlify.app/
+🔗 **Live Site**: https://jasleen-web-portfolio.netlify.app/
 📬 **Contact**: jasleen.matharoo@s.amity.edu | +91 7024026295  
 🔗 **LinkedIn**: [linkedin.com/in/jasleenkaurmatharoo](http://www.linkedin.com/in/jasleenkaurmatharoo)  
 💻 **GitHub**: [github.com/Jasleen-05](https://github.com/Jasleen-05)  
