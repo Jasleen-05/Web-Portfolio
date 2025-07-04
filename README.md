@@ -55,10 +55,12 @@ I’m a B.Tech CSE student at **Amity University Raipur** (2022–2026), passion
 
 ## 🧪 Screenshots
 
-![image](https://github.com/user-attachments/assets/6cd7121d-e071-4cc0-9c57-b69e0101153f)
+![image](https://github.com/user-attachments/assets/9b5a8fca-d4a2-4efa-859c-21de4ff6639b)
+
 _Interactive 3D background using Spline_
 
-[Projects]![image](https://github.com/user-attachments/assets/3f037764-d4d6-47f2-98ac-299bd2939a09)
+[Projects]![Screenshot 2025-07-04 114821](https://github.com/user-attachments/assets/fb1b8e31-0f95-4eb2-9aeb-01e1a9eaa5a9)
+
 _Projects displayed in responsive, animated bubbles_
 
 ---
