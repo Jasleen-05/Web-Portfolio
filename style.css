@@ -60,6 +60,9 @@ html.dark .project-bubble {
   font-size: 1.25rem;
   font-weight: 600;
   color: #8b5cf6; /* purple-500 */
+  white-space: nowrap;        /* prevents breaking inside */
+  overflow-wrap: break-word;  /* ensures wrapping on small screens */
+  max-width: 100%;
 }
 
 .project-description {
