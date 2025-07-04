@@ -33,17 +33,17 @@ html.dark .skill-tag:hover {
 
 /* ✅ Project Card */
 .project-bubble {
-  background-color: #fff;
-  border-radius: 1rem;
+  width: 100%;
+  max-width: 420px;
   padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-  transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 200px;
-  width: 100%;
-  max-width: 420px;
+  transition: all 0.3s ease;
+  overflow-wrap: break-word;
 }
 
 .project-bubble:hover {
