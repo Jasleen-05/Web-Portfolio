@@ -52,6 +52,7 @@
 
 <!-- Hero -->
 <header class="relative h-screen overflow-hidden">
+  <!-- ✅ Spline Background -->
   <iframe
     src="https://my.spline.design/robotfollowcursorforlandingpage-OBjZ6qzl9ibeNpfO1HfvYb7u/"
     frameborder="0"
@@ -59,24 +60,24 @@
     allow="autoplay; fullscreen">
   </iframe>
 
-  <div class="relative z-10 flex flex-col justify-center items-center h-full text-center px-4 pointer-events-none">
-    <div class="pointer-events-auto text-center space-y-6 max-w-[90vw] sm:max-w-2xl w-full">
+  <!-- ✅ Overlay Content -->
+  <div class="relative z-10 flex flex-col justify-center items-center h-full text-center px-4 sm:px-6 pointer-events-none">
+    <div class="pointer-events-auto space-y-5 w-full max-w-[95%] sm:max-w-2xl">
       
-      <!-- ✅ Title: Breaks correctly on mobile -->
-      <h2 class="text-4xl md:text-6xl font-bold break-words text-balance
+      <!-- ✅ Hero Title with Safe Wrapping -->
+      <h2 class="text-3xl sm:text-4xl md:text-6xl font-bold 
         bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500 
-        bg-clip-text text-transparent 
-        dark:bg-none dark:text-white drop-shadow-sm">
+        bg-clip-text text-transparent dark:bg-none dark:text-white drop-shadow-sm leading-tight break-words">
         Hi, I'm Jasleen Kaur Matharoo
       </h2>
 
-      <!-- ✅ Subtext: Shrinks smoothly -->
-      <p class="typewriter text-lg sm:text-xl text-[#4682b4] dark:text-gray-200">
+      <!-- ✅ Subtitle Responsive -->
+      <p class="typewriter text-base sm:text-lg md:text-xl text-[#4682b4] dark:text-gray-200 leading-relaxed">
         AI Innovator | Ethical Hacker | Android Developer | Hackathon Winner
       </p>
 
       <!-- ✅ Social Links -->
-      <div class="flex flex-wrap justify-center gap-6 text-lg text-white underline drop-shadow-sm mt-4">
+      <div class="flex flex-wrap justify-center gap-4 sm:gap-6 text-base sm:text-lg text-white underline drop-shadow-sm mt-2">
         <a href="https://github.com/Jasleen-05" target="_blank">GitHub</a>
         <a href="https://linkedin.com/in/jasleenkaurmatharoo" target="_blank">LinkedIn</a>
         <a href="https://leetcode.com/u/jasleenkaur05/" target="_blank">Leetcode</a>
@@ -85,6 +86,7 @@
     </div>
   </div>
 </header>
+
 
   <!-- About -->
   <section id="about" class="py-16">
