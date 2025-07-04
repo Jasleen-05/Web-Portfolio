@@ -254,26 +254,58 @@
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="py-16 bg-gray-100 dark:bg-gray-800 text-left">
-    <div class="container mx-auto px-6 md:px-16">
-      <h3 class="text-3xl font-bold text-purple-600 mb-6">Contact Me</h3>
-      <div class="rounded-2xl bg-white/10 dark:bg-white/10 backdrop-blur-md border border-white/20 shadow-xl transition-all duration-300 hover:scale-[1.02] p-8">
-        <form class="max-w-lg space-y-4">
-          <input type="text" placeholder="Your Name" class="form-input" required />
-          <input type="email" placeholder="Your Email" class="form-input" required />
-          <textarea placeholder="Your Message" class="form-input" rows="4" required></textarea>
-          <div>
-            <button type="submit" class="send-button">Send Message</button>
-          </div>
-          <p class="mt-4 text-sm">Or reach out directly:<br>
-            📧 <a href="mailto:jasleen.matharoo@s.amity.edu" class="text-purple-500">jasleen.matharoo@s.amity.edu</a><br>
-            📞 +91 7024026295
-          </p>
-        </form>
-      </div>
+<!-- Contact -->
+<section id="contact" class="py-16 bg-gray-100 dark:bg-gray-800 text-left">
+  <div class="container mx-auto px-6 md:px-16">
+    <h3 class="text-3xl font-bold text-purple-600 mb-6">Contact Me</h3>
+
+    <!-- 💎 This is the part you REPLACE -->
+    <div class="rounded-2xl bg-white/10 dark:bg-white/10 backdrop-blur-md border border-white/20 shadow-xl transition-all duration-300 hover:scale-[1.02] p-8">
+      <form
+  action="https://formspree.io/f/mrbkdddw"
+  method="POST"
+  class="max-w-lg space-y-4"
+>
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    class="form-input"
+    required
+  />
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    class="form-input"
+    required
+  />
+
+  <textarea
+    name="message"
+    placeholder="Your Message"
+    class="form-input"
+    rows="4"
+    required
+  ></textarea>
+
+  <div>
+    <button type="submit" class="send-button">Send Message</button>
+  </div>
+
+  <p class="mt-4 text-sm">
+    Or reach out directly:<br />
+    📧
+    <a href="mailto:jasleen.matharoo@s.amity.edu" class="text-purple-500">
+      jasleen.matharoo@s.amity.edu
+    </a><br />
+    📞 +91 7024026295
+  </p>
+</form>
     </div>
-  </section>
+  </div>
+</section>
 
   <button onclick="scrollToTop()" class="fixed bottom-5 right-5 bg-purple-500 text-white px-4 py-2 rounded-full shadow-md hover:bg-purple-600">↑</button>
 
