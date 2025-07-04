@@ -73,10 +73,18 @@
         Hi, I'm Jasleen Kaur Matharoo
       </h2>
 
-      <!-- ✅ Subtitle Responsive -->
-      <p class="typewriter text-base sm:text-lg md:text-xl text-[#4682b4] dark:text-gray-200 leading-relaxed">
-        AI Innovator | Ethical Hacker | Android Developer | Hackathon Winner
-      </p>
+      <!-- Desktop Typewriter (hidden on mobile) -->
+<p class="typewriter hidden sm:inline-block text-lg sm:text-xl text-[#4682b4] dark:text-gray-200">
+  AI Innovator | Ethical Hacker | Android Developer | Hackathon Winner
+</p>
+
+<!-- Mobile Version (only visible on mobile) -->
+<p class="block sm:hidden text-lg text-[#4682b4] dark:text-gray-200 leading-snug text-center">
+  AI Innovator <br />
+  Ethical Hacker <br />
+  Android Developer <br />
+  Hackathon Winner
+</p>
 
       <!-- ✅ Social Links -->
       <div class="flex flex-wrap justify-center gap-4 sm:gap-6 text-base sm:text-lg text-white underline drop-shadow-sm mt-2">
