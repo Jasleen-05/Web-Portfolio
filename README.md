@@ -69,6 +69,7 @@ _Projects displayed in responsive, animated bubbles_
 
 - Icons: [Heroicons](https://heroicons.com)
 - 3D Model: [Spline](https://spline.design/)
+- Form Handling: [Formspree](https://formspree.io/)
 
 ---
 
