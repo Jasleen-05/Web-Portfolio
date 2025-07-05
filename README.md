@@ -48,7 +48,14 @@ I’m a B.Tech CSE student at **Amity University Raipur** (2022–2026), passion
 ---
 
 ## 📂 Project Structure
-![image](https://github.com/user-attachments/assets/89b9f5b1-3145-4e3c-b788-acf3b0313278)
+/portfolio
+│
+├── index.html         # Main HTML file
+├── style.css          # Tailwind & custom styles
+├── script.js          # Theme toggle + scroll logic
+├── README.md          # You're here!
+└── Jasleen Kaur Matharoo.pdf  
+
 
 
 ---
