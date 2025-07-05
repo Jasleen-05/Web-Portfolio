@@ -69,6 +69,7 @@ _Projects displayed in responsive, animated bubbles_
 
 - Icons: [Heroicons](https://heroicons.com)
 - 3D Model: [Spline](https://spline.design/)
+- Form Handling: [Formspree](https://formspree.io/)
 
 ---
 
@@ -80,6 +81,6 @@ This project is open source and free to use for learning and personal inspiratio
 
 ## 🤝 Let's Connect!
 
-For queries, contact jasleenkaur11rps@gmail.com
+For queries, contact jasleen.matharoo@s.amity.edu
 
 ---
