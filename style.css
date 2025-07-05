@@ -141,12 +141,14 @@ html {
   scroll-behavior: smooth;
 }
 
-.typewriter {
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 5s steps(50, end) infinite, blink 0.75s step-end infinite;
-  border-right: 2px solid;
+@media (min-width: 640px) {
+  .typewriter {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(50, end) infinite, blink 0.75s step-end infinite;
+    border-right: 2px solid;
+  }
 }
 
 @keyframes typing {
