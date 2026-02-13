@@ -24,7 +24,7 @@ const Hero = () => {
 
           {/* Desktop Typewriter (hidden on mobile) */}
 <p className="typewriter hidden sm:inline-block text-lg sm:text-xl text-[#4682b4] dark:text-gray-200">
-   Android Developer | Ethical Hacker | Front-End Web Developer | Data Scientist
+   LLM Post Training Intern @EtharaAI | Data Scientist | Android Developer | AI-ML Enthusiast| Ethical Hacker | Front-End Web Developer 
 </p>
 
 {/* Mobile Version (only visible on mobile) */}
