@@ -18,8 +18,6 @@ const projects = [
       'Personal portfolio built using React with 3D Spline, dark mode, and project flips.',
     tech: ['React', 'Tailwind CSS', 'JavaScript', 'HTML'],
     links: [
-      { label: 'GitHub', url: 'https://github.com/Jasleen-05/Web-Portfolio/tree/main' },
-      { label: 'Live Demo', url: 'https://jasleen-web-portfolio.netlify.app/' },
       { label: 'GitHub-React', url: 'https://github.com/Jasleen-05/Web-Portfolio' },
       { label: 'Live Demo-React', url: 'https://react-jasleen-web-portfolio.netlify.app/' },
     ],
