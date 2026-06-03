@@ -42,7 +42,13 @@ const Contact = () => {
 
             <p className="mt-4 text-sm text-center">
               Or reach out directly:<br />
-              📧 <a href="mailto:jasleen.matharoo@s.amity.edu" className="text-purple-500 underline">jasleen.matharoo@s.amity.edu</a><br />
+              📧 <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=jasleenkaur11rps@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-500 underline">
+                jasleenkaur11rps@gmail.com
+                </a><br></br>
               📞 +91 7024026295
             </p>
           </form>

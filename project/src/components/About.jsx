@@ -25,7 +25,7 @@ const About = () => {
  {/* ✅ Resume Download Button */}
         <div className="text-center">
           <a
-            href="/Jasleen Kaur Matharoo Resume.pdf"
+            href="/Jasleen Kaur Matharoo Resume New.pdf"
             download
             className="inline-block bg-purple-600 text-white px-6 py-2 rounded-full shadow-md hover:bg-purple-700 transition"
           >
